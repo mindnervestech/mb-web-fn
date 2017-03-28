@@ -55,7 +55,7 @@ handleEditorChange = (e) => {
 getOptions(input, callback) {
   setTimeout(function() {
 
-     $.get("http://192.168.1.67:9000/api/categories").done((res) => {
+     $.get("http://localhost:9000/api/categories").done((res) => {
       console.log(res);
        this.categories = res;
       for(var i=0;i<this.categories.length;i++){
@@ -86,7 +86,7 @@ saveArticle(){
            };
 
            console.log("data----",data);
-           $.post("http://192.168.1.67:9000/api/article/save",data).done((res) => {
+           $.post("http://localhost:9000/api/article/save",data).done((res) => {
            console.log("lead...........");
            // this.setState();
           

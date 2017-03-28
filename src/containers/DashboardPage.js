@@ -55,7 +55,7 @@ export default class UserPage extends Component {
     this.generateDivs = this.generateDivs.bind(this);
     this.count = 0;
      this.flag = 0;
-    $.get("http://192.168.1.67:9000/api/categories").done((res) => {
+    $.get("http://localhost:9000/api/categories").done((res) => {
       console.log(res);
      
            this.categories = res;

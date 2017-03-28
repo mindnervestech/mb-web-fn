@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react'
+/*import React, { Component, PropTypes } from 'react'
 import { Link,browserHistory } from 'react-router'
 import TinyMCE from 'react-tinymce';
 var $ = require ('jquery');
@@ -76,3 +76,4 @@ handleEditorChange = (e) => {
 }
 
 
+*/

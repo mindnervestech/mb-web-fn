@@ -91,13 +91,13 @@ export default class RepoPage extends Component {
           this.count = 0;
     if(value == "All articles"){
 
-         $.get("http://192.168.1.67:9000/api/articles").done((res) => {
+         $.get("http://localhost:9000/api/articles").done((res) => {
            this.res = res.res;
            this.generateDivs();
         }); 
     }else{
           
-        $.get("http://192.168.1.67:9000/api/article/category/"+value).done((res) => {
+        $.get("http://localhost:9000/api/article/category/"+value).done((res) => {
           console.log(res);
          
           this.state = {divs: divs};
@@ -129,7 +129,7 @@ console.log("hiii");
           console.log(this.count);
             let moreDivs = [];
             console.log(this.count);
-           $.get("http://192.168.1.67:9000/api/article?articleId="+this.articleId).done((res) => {
+           $.get("http://localhost:9000/api/article?articleId="+this.articleId).done((res) => {
              console.log(res);
 
               

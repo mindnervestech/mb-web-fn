@@ -28,7 +28,7 @@ createArticle(){
 
 getAllArticale(){
 
-  $.get("http://192.168.1.67:9000/api/articles").done((res) => {
+  $.get("http://localhost:9000/api/articles").done((res) => {
            console.log("lead...........");
            console.log(res.res);
            

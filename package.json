@@ -10,7 +10,6 @@
     "redux-logger": "^2.6.1"
   },
   "dependencies": {
-    "@djyde/react-quill": "^0.1.2",
     "Faker": "^0.7.2",
     "bootstrap": "^3.3.7",
     "humps": "^1.1.0",
