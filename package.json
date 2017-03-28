@@ -10,7 +10,6 @@
     "redux-logger": "^2.6.1"
   },
   "dependencies": {
-    "Faker": "^0.7.2",
     "bootstrap": "^3.3.7",
     "humps": "^1.1.0",
     "jquery": "^3.2.1",
@@ -20,7 +19,6 @@
     "react-data-grid": "^2.0.19",
     "react-data-grid-addons": "^2.0.19",
     "react-dom": "^15.3.0",
-    "react-highlight-words": "^0.6.0",
     "react-infinite-scroll-component": "^2.2.2",
     "react-redux": "^4.4.5",
     "react-router": "^2.6.1",
@@ -31,7 +29,6 @@
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
     "slick-carousel": "^1.6.0",
-    "wysiwyg-editor-react": "^0.1.6"
   },
   "scripts": {
     "start": "react-scripts start",
