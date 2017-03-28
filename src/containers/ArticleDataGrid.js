@@ -57,12 +57,11 @@ onClick(cell) {
                
             </div>
             <div className="col-md-12">
-           enableCellSelect={true}
+           
               <ReactDataGrid columns={columns}
              rowGetter={rowGetter}
               rowsCount={rows.length}
                minHeight={500} 
-               
               onDoubleClick={this.onClick}/>
             </div>
 
